@@ -1,0 +1,18 @@
+body {
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0;
+    padding: 0
+}
+
+.bio {
+    background-color: #333333;
+    
+}
+
+.name{
+    color: #eeeeee;
+    font-size: 28px;
+
+}
