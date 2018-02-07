@@ -1,0 +1,13 @@
+@media screen and (max-width:768px) {
+    body {
+        background-color: #333;
+    }
+     .wrapper {
+         width: 600px
+     }
+     #main-content,
+     #sidebar{
+         padding: 40px;
+         margin: 40px;
+     }
+}
