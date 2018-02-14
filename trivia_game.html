@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia</title>
+</head>
+<body>
+    <h1>TF Quiz</h1>
+
+    <h2>Are you a geek?</h2>
+
+    <h2 id="question"></h2>
+
+    <script>
+        //make a loop with on key upevents 
+        var questions = {
+            q1:["True or Fales? Michey Mouses first name was Steam Boat Willey?", true],
+            q2:["True or False? Tom Brady has 6 superbowl wins?", false],
+            q3:["True or False? The pacific ocean is on the east side of the Untited States?", true],
+            q4:["True or False? Is the Eagle the national bird for the USA?", true],
+            q5:["True or False? Sean white has white hair?", false],
+            q6:[]
+            q7:
+            q8:
+            q9:
+            q10:
+        }
+
+        function loadQuestion(i) {
+            question ["q" + i]
+        }
+        //make loop
+        var q = document.getElementById("question");
+        q.innerHTML = questions.q1[0];
+
+        loadQuestion(1);
+
+
+    </script>
+</body>
+</html>
